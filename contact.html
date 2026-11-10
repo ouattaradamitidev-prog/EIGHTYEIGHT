@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Eightyeight Detailing</title>
+    <meta name="description" content="Contactez Eightyeight Detailing pour un devis ou une question." />
+    <link rel="canonical" href="https://CHANGE-ME.example/contact.html" />
+    <meta property="og:title" content="Contact | Eightyeight Detailing" />
+    <meta property="og:description" content="Contactez Eightyeight Detailing pour un devis ou une question." />
+    <link rel="icon" href="assets/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="pages.css" />
+  </head>
+  <body>
+    <div class="background"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo"><a href="index.html"><img src="assets/logo.png" alt="Eightyeight Detailing, accueil" /></a></div>
+        <div class="nav__menu__btn" id="menu-btn" role="button" aria-label="Menu"><i class="ri-menu-4-line"></i></div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">ACCUEIL</a></li>
+        <li><a href="gallery.html">GALERIE</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="about.html">À PROPOS</a></li>
+        <li><a href="contact.html" aria-current="page">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main>
+<section class="page__hero"><p class="section__subheader">CONTACT</p><h1 class="section__header">NOUS CONTACTER</h1><p class="section__description">Dites-nous de quel service vous avez besoin. Nous répondons par e-mail.</p></section>
+<form class="contact__form" id="contact-form" novalidate>
+ <label for="name">Nom<input id="name" name="name" type="text" autocomplete="name" required aria-describedby="err-name" /><span class="field__error" id="err-name"></span></label>
+ <label for="email">E-mail<input id="email" name="email" type="email" autocomplete="email" required aria-describedby="err-email" /><span class="field__error" id="err-email"></span></label>
+ <label for="phone">Téléphone (facultatif)<input id="phone" name="phone" type="tel" autocomplete="tel" /></label>
+ <label for="service">Service<select id="service" name="service"><option value="">Autre demande</option><option value="detailing">Detailing automobile premium</option><option value="correction">Correction de peinture</option><option value="film">Film de protection de la peinture</option><option value="ceramique">Revêtement céramique</option><option value="stockage">Stockage automobile premium</option><option value="evenements">Événements privés</option></select></label>
+ <label for="message">Message<textarea id="message" name="message" rows="6" required aria-describedby="err-message"></textarea><span class="field__error" id="err-message"></span></label>
+ <label class="hp" aria-hidden="true">Site web<input name="website" type="text" tabindex="-1" autocomplete="off" /></label>
+ <button class="btn" type="submit">ENVOYER LE MESSAGE</button>
+ <p class="form__status" id="form-status" role="status"></p>
+ <p class="note">En envoyant ce formulaire, vous acceptez que vos données servent à vous répondre. Voir la <a href="privacy.html">politique de confidentialité</a>.</p>
+</form>
+    </main>
+    <footer>
+      <div class="section__container footer__container" id="contact">
+        <div class="footer__col">
+          <a href="index.html" class="footer__logo"><img src="assets/logo.png" alt="Eightyeight Detailing" /></a>
+          <p class="section__description">Soin automobile premium : detailing, protection de la peinture, stockage et événements privés.</p>
+          <ul class="footer__socials">
+            <li><a href="#" aria-label="Facebook"><i class="ri-facebook-circle-fill"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a></li>
+            <li><a href="#" aria-label="YouTube"><i class="ri-youtube-fill"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer__col"><h4>LIENS RAPIDES</h4><ul class="footer__links"><li><a href="index.html">ACCUEIL</a></li><li><a href="gallery.html">GALERIE</a></li><li><a href="services.html">SERVICES</a></li><li><a href="about.html">À PROPOS</a></li><li><a href="contact.html">CONTACT</a></li></ul></div>
+        <div class="footer__col"><h4>SERVICES</h4><ul class="footer__links"><li><a href="services.html#detailing">DETAILING AUTOMOBILE PREMIUM</a></li><li><a href="services.html#correction">CORRECTION DE PEINTURE</a></li><li><a href="services.html#film">FILM DE PROTECTION DE LA PEINTURE</a></li><li><a href="services.html#ceramique">REVÊTEMENT CÉRAMIQUE</a></li><li><a href="services.html#stockage">STOCKAGE AUTOMOBILE PREMIUM</a></li><li><a href="services.html#evenements">ÉVÉNEMENTS PRIVÉS</a></li></ul></div>
+        <div class="footer__col"><h4>CONTACT</h4><p class="section__description">Une question ou un devis ?</p><br /><a class="btn" href="contact.html">NOUS ÉCRIRE</a></div>
+      </div>
+      <div class="footer__bar">© 2026 Eightyeight Detailing. Site réalisé par <a href="https://damel.vercel.app" rel="noopener">DAMEL, développeur web</a>. <a href="privacy.html">Confidentialité</a> · <a href="terms.html">CGU</a></div>
+    </footer>
+    <script src="pages.js"></script>
+    <script src="consent.js"></script>
+  </body>
+</html>
